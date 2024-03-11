@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "outDir": "./dist", // Output directory for compiled JavaScript files
+    "declaration": true, // Generate declaration files (*.d.ts)
+    "strict": true
+  },
+  "include": [
+        "src/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}
